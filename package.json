@@ -1,0 +1,27 @@
+{
+  "name": "personal-wesbite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "devDependencies": {
+    "docz": "^0.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahgharian/personal-wesbite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahgharian/personal-wesbite/issues"
+  },
+  "homepage": "https://github.com/ahgharian/personal-wesbite#readme",
+  "dependencies": {
+    "react-icons": "^2.2.7",
+    "react-jss": "^8.6.1"
+  }
+}
