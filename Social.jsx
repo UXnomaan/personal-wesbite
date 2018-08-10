@@ -5,7 +5,8 @@ import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/lib/fa';
 const styles = {
     bannerWrapper: {
         display: 'flex',
-        justifyContent: 'space-evenly'
+        justifyContent: 'space-evenly',
+        margin: 70
     },
     banner: {
         display: 'flex',
@@ -16,7 +17,10 @@ const styles = {
             grow: null,
             shrink: null,
             wrap: null
-        }
+        },
+        border: '1px solid #CED4DE',
+        borderRadius: 100,
+        padding: 15
     }
 };
 
@@ -34,7 +38,7 @@ const Social = ({ classes }) => {
     return (
         <div className={classes.bannerWrapper}>
             {info.map(social => (
-                <span className={classes.banner}>
+                <span key={social.name} className={classes.banner}>
                     <a href={social.url}> {social.icon}</a>
                 </span>
             ))}
