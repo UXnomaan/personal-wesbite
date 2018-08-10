@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ahgharian/personal-wesbite#readme",
   "dependencies": {
+    "@material-ui/core": "^1.4.3",
     "jss": "^9.8.7",
     "jss-nested": "^6.0.1",
     "react-ga": "^2.5.3",
